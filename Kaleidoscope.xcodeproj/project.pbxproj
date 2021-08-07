@@ -3,16 +3,15 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0940A60F77AF64E53B55C531 /* Pods_Kaleidoscope.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0D263793A764327D83EA3EC /* Pods_Kaleidoscope.framework */; };
 		4B34948F26BEC3C700D4259E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B34948E26BEC3C700D4259E /* AppDelegate.m */; };
-		4B34949226BEC3C700D4259E /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B34949126BEC3C700D4259E /* SceneDelegate.m */; };
-		4B34949526BEC3C700D4259E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B34949426BEC3C700D4259E /* ViewController.m */; };
+		4B34949526BEC3C700D4259E /* KEBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B34949426BEC3C700D4259E /* KEBaseViewController.m */; };
 		4B34949826BEC3C700D4259E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B34949626BEC3C700D4259E /* Main.storyboard */; };
 		4B34949A26BEC3C800D4259E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B34949926BEC3C800D4259E /* Assets.xcassets */; };
-		4B34949D26BEC3C800D4259E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B34949B26BEC3C800D4259E /* LaunchScreen.storyboard */; };
 		4B3494A026BEC3C800D4259E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B34949F26BEC3C800D4259E /* main.m */; };
 /* End PBXBuildFile section */
 
@@ -20,15 +19,15 @@
 		4B34948A26BEC3C700D4259E /* Kaleidoscope.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kaleidoscope.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B34948D26BEC3C700D4259E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4B34948E26BEC3C700D4259E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		4B34949026BEC3C700D4259E /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		4B34949126BEC3C700D4259E /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		4B34949326BEC3C700D4259E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		4B34949426BEC3C700D4259E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4B34949326BEC3C700D4259E /* KEBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KEBaseViewController.h; sourceTree = "<group>"; };
+		4B34949426BEC3C700D4259E /* KEBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KEBaseViewController.m; sourceTree = "<group>"; };
 		4B34949726BEC3C700D4259E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4B34949926BEC3C800D4259E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		4B34949C26BEC3C800D4259E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4B34949E26BEC3C800D4259E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4B34949F26BEC3C800D4259E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		821EC66F8456859519B79391 /* Pods-Kaleidoscope.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kaleidoscope.release.xcconfig"; path = "Target Support Files/Pods-Kaleidoscope/Pods-Kaleidoscope.release.xcconfig"; sourceTree = "<group>"; };
+		93103BFAFE13A6F18DACA536 /* Pods-Kaleidoscope.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kaleidoscope.debug.xcconfig"; path = "Target Support Files/Pods-Kaleidoscope/Pods-Kaleidoscope.debug.xcconfig"; sourceTree = "<group>"; };
+		A0D263793A764327D83EA3EC /* Pods_Kaleidoscope.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Kaleidoscope.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0940A60F77AF64E53B55C531 /* Pods_Kaleidoscope.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -47,6 +47,8 @@
 			children = (
 				4B34948C26BEC3C700D4259E /* Kaleidoscope */,
 				4B34948B26BEC3C700D4259E /* Products */,
+				5A4572D12A4A781C05511451 /* Pods */,
+				F2906958ECA65C9F0340953E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,19 +63,57 @@
 		4B34948C26BEC3C700D4259E /* Kaleidoscope */ = {
 			isa = PBXGroup;
 			children = (
+				4B3494A726BECE4800D4259E /* Application */,
+				4B3494A826BECE6400D4259E /* Resources */,
+				4B3494A626BEC5F200D4259E /* Supporting Files */,
 				4B34948D26BEC3C700D4259E /* AppDelegate.h */,
 				4B34948E26BEC3C700D4259E /* AppDelegate.m */,
-				4B34949026BEC3C700D4259E /* SceneDelegate.h */,
-				4B34949126BEC3C700D4259E /* SceneDelegate.m */,
-				4B34949326BEC3C700D4259E /* ViewController.h */,
-				4B34949426BEC3C700D4259E /* ViewController.m */,
-				4B34949626BEC3C700D4259E /* Main.storyboard */,
-				4B34949926BEC3C800D4259E /* Assets.xcassets */,
-				4B34949B26BEC3C800D4259E /* LaunchScreen.storyboard */,
-				4B34949E26BEC3C800D4259E /* Info.plist */,
-				4B34949F26BEC3C800D4259E /* main.m */,
 			);
 			path = Kaleidoscope;
+			sourceTree = "<group>";
+		};
+		4B3494A626BEC5F200D4259E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4B34949E26BEC3C800D4259E /* Info.plist */,
+				4B34949626BEC3C700D4259E /* Main.storyboard */,
+				4B34949F26BEC3C800D4259E /* main.m */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4B3494A726BECE4800D4259E /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				4B34949326BEC3C700D4259E /* KEBaseViewController.h */,
+				4B34949426BEC3C700D4259E /* KEBaseViewController.m */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		4B3494A826BECE6400D4259E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4B34949926BEC3C800D4259E /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		5A4572D12A4A781C05511451 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				93103BFAFE13A6F18DACA536 /* Pods-Kaleidoscope.debug.xcconfig */,
+				821EC66F8456859519B79391 /* Pods-Kaleidoscope.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F2906958ECA65C9F0340953E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A0D263793A764327D83EA3EC /* Pods_Kaleidoscope.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,9 +123,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4B3494A326BEC3C800D4259E /* Build configuration list for PBXNativeTarget "Kaleidoscope" */;
 			buildPhases = (
+				AE4FFC0998A115240BD3BC17 /* [CP] Check Pods Manifest.lock */,
 				4B34948626BEC3C700D4259E /* Sources */,
 				4B34948726BEC3C700D4259E /* Frameworks */,
 				4B34948826BEC3C700D4259E /* Resources */,
+				135F6CB2520D401693F61FAA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,7 +174,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4B34949D26BEC3C800D4259E /* LaunchScreen.storyboard in Resources */,
 				4B34949A26BEC3C800D4259E /* Assets.xcassets in Resources */,
 				4B34949826BEC3C700D4259E /* Main.storyboard in Resources */,
 			);
@@ -140,15 +181,56 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		135F6CB2520D401693F61FAA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Kaleidoscope/Pods-Kaleidoscope-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Kaleidoscope/Pods-Kaleidoscope-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Kaleidoscope/Pods-Kaleidoscope-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE4FFC0998A115240BD3BC17 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Kaleidoscope-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4B34948626BEC3C700D4259E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4B34949526BEC3C700D4259E /* ViewController.m in Sources */,
+				4B34949526BEC3C700D4259E /* KEBaseViewController.m in Sources */,
 				4B34948F26BEC3C700D4259E /* AppDelegate.m in Sources */,
 				4B3494A026BEC3C800D4259E /* main.m in Sources */,
-				4B34949226BEC3C700D4259E /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -161,14 +243,6 @@
 				4B34949726BEC3C700D4259E /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		4B34949B26BEC3C800D4259E /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4B34949C26BEC3C800D4259E /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -288,12 +362,13 @@
 		};
 		4B3494A426BEC3C800D4259E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93103BFAFE13A6F18DACA536 /* Pods-Kaleidoscope.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 528YBB47D8;
-				INFOPLIST_FILE = Kaleidoscope/Info.plist;
+				INFOPLIST_FILE = "Kaleidoscope/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -306,12 +381,13 @@
 		};
 		4B3494A526BEC3C800D4259E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 821EC66F8456859519B79391 /* Pods-Kaleidoscope.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 528YBB47D8;
-				INFOPLIST_FILE = Kaleidoscope/Info.plist;
+				INFOPLIST_FILE = "Kaleidoscope/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
