@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0940A60F77AF64E53B55C531 /* Pods_Kaleidoscope.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0D263793A764327D83EA3EC /* Pods_Kaleidoscope.framework */; };
+		2BDF21C926C11FF1000DBEB2 /* KEMetalRendererView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BDF21C826C11FF1000DBEB2 /* KEMetalRendererView.m */; };
 		4B34948F26BEC3C700D4259E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B34948E26BEC3C700D4259E /* AppDelegate.m */; };
 		4B34949526BEC3C700D4259E /* KEBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B34949426BEC3C700D4259E /* KEBaseViewController.m */; };
 		4B34949826BEC3C700D4259E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B34949626BEC3C700D4259E /* Main.storyboard */; };
@@ -16,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2BDF1CFF26C11688000DBEB2 /* KEMetalRendererView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KEMetalRendererView.h; sourceTree = "<group>"; };
+		2BDF21C826C11FF1000DBEB2 /* KEMetalRendererView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KEMetalRendererView.m; sourceTree = "<group>"; };
 		4B34948A26BEC3C700D4259E /* Kaleidoscope.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kaleidoscope.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B34948D26BEC3C700D4259E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4B34948E26BEC3C700D4259E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -42,6 +45,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2BDF1CFC26C11449000DBEB2 /* Renderer */ = {
+			isa = PBXGroup;
+			children = (
+				2BDF1CFF26C11688000DBEB2 /* KEMetalRendererView.h */,
+				2BDF21C826C11FF1000DBEB2 /* KEMetalRendererView.m */,
+			);
+			path = Renderer;
+			sourceTree = "<group>";
+		};
 		4B34948126BEC3C700D4259E = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +97,7 @@
 		4B3494A726BECE4800D4259E /* Application */ = {
 			isa = PBXGroup;
 			children = (
+				2BDF1CFC26C11449000DBEB2 /* Renderer */,
 				4B34949326BEC3C700D4259E /* KEBaseViewController.h */,
 				4B34949426BEC3C700D4259E /* KEBaseViewController.m */,
 			);
@@ -230,6 +243,7 @@
 			files = (
 				4B34949526BEC3C700D4259E /* KEBaseViewController.m in Sources */,
 				4B34948F26BEC3C700D4259E /* AppDelegate.m in Sources */,
+				2BDF21C926C11FF1000DBEB2 /* KEMetalRendererView.m in Sources */,
 				4B3494A026BEC3C800D4259E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
