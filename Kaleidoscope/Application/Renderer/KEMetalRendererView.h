@@ -11,7 +11,7 @@
 #import <UIKit/UIKit.h>
 #import <MetalKit/MetalKit.h>
 @interface KEMetalRendererView : MTKView
-- (void)loadShadersWithVertexName: (NSString*)vertex FragmentName: (NSString*)fragment 
+- (void)loadShadersWithVertexName: (NSString*)vertex FragmentName: (NSString*)fragment;
 @end
 
 
